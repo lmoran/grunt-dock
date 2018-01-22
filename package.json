@@ -1,7 +1,7 @@
 {
   "name": "grunt-dock",
   "description": "A grunt plugin to manage Docker",
-  "version": "1.1.4",
+  "version": "1.1.4-auth",
   "license": "MIT",
   "author": "Johann Troendle",
   "maintainers": [
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "async": "latest",
-    "dockerode": "latest",
+    "dockerode": "git+https://github.com/lmoran/dockerode.git#master",
     "easy-table": "latest",
     "moment": "latest",
     "tar-stream": "latest",
